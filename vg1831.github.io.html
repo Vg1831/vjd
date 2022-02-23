@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>module2-solution</title>
+<style>
+ body{
+	background-color: maroon;
+}	
+#box , #boxx , #boxxx{
+	background-color: beige;
+	margin:10px;
+	width: 280px;
+	float: left;
+	font-family: sans-serif;
+}
+
+ h1{
+ 	margin-bottom: 70px;
+ 	font-style: italic;
+ }	
+@media(min-width: 992px){
+	#box , #boxx , #boxxx{
+	border: 2px solid black;	
+	margin:20px;
+	padding:5px;
+	width: 280px;
+	float: left;
+}
+#boxx{
+	background-color: lightgreen;
+}
+#boxxx{
+	background-color: lightblue;
+}
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+	#box{
+	border: 2px solid black;
+	padding: 5px;
+	margin:10px;
+	width: 330px;
+	float: left;
+}
+#boxx{
+	border: 2px solid black;
+	margin: 10px ;
+	padding: 5px;
+	width: 330px;
+	float: left;
+	background-color: lightgreen;
+}
+#boxxx{
+	border: 2px solid black;
+	padding: 5px;
+	margin: 10px;
+	width: 330px;
+	background-color: lightblue;
+}
+}
+@media(max-width: 767px){
+	#box{
+	border: 2px solid black;
+	margin:10px;
+	padding:5px ;
+	width: 430px;
+}
+#boxx{
+	margin: 10px ;
+	padding:5px;
+	border: 2px solid black;
+	width: 430px;
+	background-color: lightgreen;
+}
+#boxxx{
+	margin: 10px;
+	padding:5px ;
+	border: 2px solid black;
+	width: 430px;
+	background-color: lightblue;
+ }
+}
+
+</style>
+</head>
+<body>
+	<h1 style="text-align: center;">Our Menu</h1>
+     <div id="box">
+      <h2 style="text-align: right;"> Chicken</h2>
+      <p>lorem ipsum dolor sit amet,consectutur adipisicing elit,set do elusmod tempor imcididunt ut labore et dolore magna aliqua,ut enim ad minim veniam,quis nostrud exercitation ullamco labories nisi ut aiquip ex ea</p>
+     </div>
+     <div id="boxx">
+     	<h2 style="text-align: right;">Beef</h2>
+     	<p>lorem ipsum dolor sit amet,consectutur adipisicing elit,set do elusmod tempor imcididunt ut labore et dolore magna aliqua,ut enim ad minim veniam,quis nostrud exercitation ullamco labories nisi ut aiquip ex ea</p>
+     </div>
+     <div id="boxxx">
+     	<h2 style="text-align: right;">Sushi</h2>
+     	<p>lorem ipsum dolor sit amet,consectutur adipisicing elit,set do elusmod tempor imcididunt ut labore et dolore magna aliqua,ut enim ad minim veniam,quis nostrud exercitation ullamco labories nisi ut aiquip ex ea</p>
+     </div>
+
+</body>
+</html>
